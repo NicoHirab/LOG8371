@@ -18,7 +18,7 @@ script:
   - cd ..
   - cd server-plugin/server-executor-docker
   - mvn test -B
-  - cd ..
+  - cd ../..
   - cd server-plugin/server-plugin-authenticator-ldap
   - mvn test -B
 
