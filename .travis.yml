@@ -1,4 +1,25 @@
 language: java
-install: true
-install: travis_wait 30 mvn install
-os: linux
+
+jdk:
+  - oraclejdk8
+
+dist: trusty
+before_install: cd onedev-main
+install: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
+script:
+  - cd server-core
+  - mvn test -B
+  - cd ..
+  - cd server-product
+  - mvn test -B
+  - cd ..
+  - cd server-plugin/server-plugin-archetype
+  - mvn test -B
+  - cd ../..
+  - cd server-plugin/server-plugin-authenticator-ldap
+  - mvn test -B
+
+branches:
+  only: 
+    - main
