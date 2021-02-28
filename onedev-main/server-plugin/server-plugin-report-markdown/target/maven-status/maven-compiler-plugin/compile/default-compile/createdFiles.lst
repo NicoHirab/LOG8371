@@ -1,0 +1,17 @@
+io\onedev\server\plugin\report\markdown\MarkdownReportModule.class
+io\onedev\server\plugin\report\markdown\MarkdownReportPage$1.class
+io\onedev\server\plugin\report\markdown\JobMarkdownReport.class
+io\onedev\server\plugin\report\markdown\MarkdownReportDownloadResourceReference.class
+io\onedev\server\plugin\report\markdown\JobMarkdownReport$1.class
+io\onedev\server\plugin\report\markdown\MarkdownReportDownloadResource$1.class
+io\onedev\server\plugin\report\markdown\MarkdownReportTab$1$1.class
+io\onedev\server\plugin\report\markdown\MarkdownReportTab.class
+io\onedev\server\plugin\report\markdown\MarkdownReportTab$1.class
+io\onedev\server\plugin\report\markdown\MarkdownReportPage.class
+io\onedev\server\plugin\report\markdown\MarkdownReportDownloadResource.class
+io\onedev\server\plugin\report\markdown\MarkdownReportModule$1.class
+io\onedev\server\plugin\report\markdown\MarkdownReportCssResourceReference.class
+io\onedev\server\plugin\report\markdown\MarkdownReportModule$2.class
+io\onedev\server\plugin\report\markdown\MarkdownReportModule$2$1.class
+io\onedev\server\plugin\report\markdown\MarkdownReportDownloadResource$1$1.class
+io\onedev\server\plugin\report\markdown\MarkdownReportModule$3.class

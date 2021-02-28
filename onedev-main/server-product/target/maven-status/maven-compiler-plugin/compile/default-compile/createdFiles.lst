@@ -1,0 +1,6 @@
+io\onedev\server\product\ProductServletConfigurator.class
+io\onedev\server\product\ProductServletConfigurator$1.class
+io\onedev\server\product\ServerProperties.class
+io\onedev\server\product\ProductConfigurator.class
+io\onedev\server\product\DefaultServerConfig.class
+io\onedev\server\product\ProductModule.class

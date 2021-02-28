@@ -1,0 +1,8 @@
+io\onedev\server\plugin\authenticator\ldap\GetGroupsUsingAttribute.class
+io\onedev\server\plugin\authenticator\ldap\LdapModule$1.class
+io\onedev\server\plugin\authenticator\ldap\LdapModule.class
+io\onedev\server\plugin\authenticator\ldap\GroupRetrieval.class
+io\onedev\server\plugin\authenticator\ldap\DoNotRetrieveGroups.class
+io\onedev\server\plugin\authenticator\ldap\ActiveDirectoryAuthenticator.class
+io\onedev\server\plugin\authenticator\ldap\SearchGroupsUsingFilter.class
+io\onedev\server\plugin\authenticator\ldap\LdapAuthenticator.class

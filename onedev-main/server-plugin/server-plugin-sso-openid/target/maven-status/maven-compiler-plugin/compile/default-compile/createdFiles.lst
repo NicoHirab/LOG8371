@@ -1,0 +1,9 @@
+io\onedev\server\plugin\sso\openid\ProviderMetadata.class
+io\onedev\server\plugin\sso\openid\OpenIdConnector.class
+com\nimbusds\oauth2\sdk\http\HTTPRequest$Method.class
+io\onedev\server\plugin\sso\openid\GitHubConnector.class
+com\nimbusds\oauth2\sdk\http\HTTPRequest.class
+io\onedev\server\plugin\sso\openid\CallbackUrlPanel.class
+io\onedev\server\plugin\sso\openid\OpenIdModule$1.class
+io\onedev\server\plugin\sso\openid\OpenIdModule.class
+com\nimbusds\openid\connect\sdk\UserInfoErrorResponse.class
