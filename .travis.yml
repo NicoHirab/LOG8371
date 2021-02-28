@@ -16,11 +16,13 @@ script:
   - cd server-product
   - mvn test -B
   - cd ..
-  - cd server-plugin/server-executor-docker
+  - cd server-plugin/server-plugin-archetype
   - mvn test -B
   - cd ../..
   - cd server-plugin/server-plugin-authenticator-ldap
   - mvn test -B
+
+
 
 branches:
   only: 
