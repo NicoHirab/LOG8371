@@ -255,7 +255,7 @@ public class OneDev extends AbstractPlugin implements Serializable {
 					host = "localhost";
 				}
 			}
-			
+			// Ajout d'un changement
 			ServerConfig serverConfig = serverConfigProvider.get();
 			if (ssh) 
 				serverUrl = buildServerUrl(host, "ssh", serverConfig.getSshPort());
@@ -264,7 +264,6 @@ public class OneDev extends AbstractPlugin implements Serializable {
 			else 
                 serverUrl = buildServerUrl(host, "http", serverConfig.getHttpPort());
 		}
-		
 		return serverUrl;
 	}
 	
