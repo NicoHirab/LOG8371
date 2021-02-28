@@ -4,7 +4,9 @@ jdk:
   - oraclejdk8
 
 dist: trusty
+
 before_install: cd onedev-main
+
 install: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
 script:
@@ -14,9 +16,9 @@ script:
   - cd server-product
   - mvn test -B
   - cd ..
-  - cd server-plugin/server-plugin-archetype
+  - cd server-plugin/server-executor-docker
   - mvn test -B
-  - cd ../..
+  - cd ..
   - cd server-plugin/server-plugin-authenticator-ldap
   - mvn test -B
 
