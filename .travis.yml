@@ -11,16 +11,16 @@ install: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
 script:
   - cd server-core
-  - mvn test -B
+  - mvn test
   - cd ..
   - cd server-product
-  - mvn test -B
+  - mvn test
   - cd ..
   - cd server-plugin/server-plugin-archetype
-  - mvn test -B
+  - mvn test
   - cd ../..
   - cd server-plugin/server-plugin-authenticator-ldap
-  - mvn test -B
+  - mvn test
 
 
 
