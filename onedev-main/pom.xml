@@ -589,11 +589,11 @@
 		<flexmark.version>0.18.3</flexmark.version>
 		<groovy.version>3.0.7</groovy.version>
 		<servlet.version>3.1.0</servlet.version>
-		<properties>
   		<sonar.projectKey>NicoHirab_LOG8371</sonar.projectKey>
   		<sonar.organization>nicohirab</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.moduleKey>${artifactId}</sonar.moduleKey> 
+		<sonar.moduleKey>${artifactId}</sonar.moduleKey>		
+		<properties> 
 </properties>
 	</properties>
 </project>
